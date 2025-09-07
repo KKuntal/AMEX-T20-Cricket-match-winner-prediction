@@ -1,16 +1,11 @@
-# 🏏 American Express Campus Challenge 2024 – Team *The Data Disruptors*  
+# American Express Campus Challenge 2024 
 
-Pulkit Agrawal | Aditya Singh | Pratham Malviya  
-Indian Institute of Technology, Kharagpur  
-
----
-
-## 📌 1. Project Title  
+##  1. Project Title  
 **Cricket Match Winner Prediction using Machine Learning**  
 
 ---
 
-## ✅ 2. Objectives  
+##  2. Objectives  
 - Predict the outcome of cricket matches (whether **Team 1 wins**) using ML models.  
 - Apply **feature engineering** to capture cricket-specific insights (batting, bowling, toss, ground).  
 - Experiment with **different modeling techniques** including boosting, ensembles, and calibrated models.  
@@ -19,7 +14,7 @@ Indian Institute of Technology, Kharagpur
 
 ---
 
-## 🛠 3. Tools & Technologies  
+##  3. Tools & Technologies  
 - **Programming Language**: Python  
 - **Libraries**: pandas, numpy, scikit-learn, catboost, xgboost, lightgbm, matplotlib, seaborn  
 - **Techniques**:  
@@ -30,7 +25,7 @@ Indian Institute of Technology, Kharagpur
 
 ---
 
-## 🔍 4. Process  
+##  4. Process  
 
 ### **Step 1: Problem Framing**  
 - Original dependent variable `Match Winner Prediction` reframed as **binary classification** → `is_team1_winner`.  
@@ -69,7 +64,7 @@ Top important features included:
 
 ---
 
-## 🌟 5. Key Features of the Solution  
+##  5. Key Features of the Solution  
 - **Stratified sampling** → ensures balanced evaluation.  
 - **Domain-driven feature engineering** → interpretable cricket insights.  
 - **Boosting & Ensembles** → captured non-linear relationships.  
@@ -78,7 +73,7 @@ Top important features included:
 
 ---
 
-## 📊 6. Model Performance Summary  
+##  6. Model Performance Summary  
 
 | Technique                                   | Accuracy |
 |---------------------------------------------|----------|
@@ -88,7 +83,7 @@ Top important features included:
 
 ---
 
-## 🔍 7. Advanced Enhancements Suggested  
+##  7. Advanced Enhancements Suggested  
 - **Model Variety**: Neural networks, deeper ensemble methods.  
 - **Feature Transformations**: Logarithmic, polynomial features.  
 - **Variable Discretization**: Bin continuous features to capture nonlinearities.  
